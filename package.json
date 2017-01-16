@@ -34,23 +34,23 @@
   "homepage": "https://github.com/Planeshifter/tweet-sentiment",
   "dependencies": {
     "commander": "^2.7.1",
-    "csv-parse": "^0.1.0",
+    "csv-parse": "^1.1.9",
     "e": "0.0.4",
     "emotional-emoticons": "0.0.1",
-    "lodash": "^3.6.0",
+    "lodash": "^4.17.4",
     "node-svm": "^2.1.4",
     "plus_arrays": "^0.1.5",
-    "pos": "^0.1.9",
-    "ramda": "^0.13.0",
+    "pos": "^0.4.2",
+    "ramda": "^0.23.0",
     "svm": "^0.1.1"
   },
   "devDependencies": {
-    "babel": "^4.7.16",
-    "chai": "^2.2.0",
+    "babel-cli": "^6.18.0",
+    "chai": "^3.5.0",
     "coveralls": "^2.11.2",
-    "istanbul": "^0.3.13",
+    "istanbul": "^0.4.5",
     "jshint": "^2.6.3",
-    "jshint-stylish": "^1.0.1",
-    "mocha": "^2.2.1"
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^3.2.0"
   }
 }

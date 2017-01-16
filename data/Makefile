@@ -9,12 +9,9 @@ NRC:
 	gunzip NRC-Hashtag-Sentiment-Lexicon-v0.1/pairs-pmilexicon.txt.gz
 
 Sentiment140:
-	wget http://www.umiacs.umd.edu/~saif/WebDocs/Sentiment140-Lexicon-v0.1.zip
+	wget http://www.saifmohammad.com/Lexicons/Sentiment140-Lexicon-v0.1.zip
 	unzip Sentiment140-Lexicon-v0.1.zip
 	rm Sentiment140-Lexicon-v0.1.zip
-	gunzip Sentiment140-Lexicon-v0.1/unigrams-pmilexicon.txt.gz
-	gunzip Sentiment140-Lexicon-v0.1/bigrams-pmilexicon.txt.gz
-	gunzip Sentiment140-Lexicon-v0.1/pairs-pmilexicon.txt.gz
 
 BingLiu:
 	wget http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar
